@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  // justify-content: space-between;
+  justify-content: flex-end;
+  padding-top: 1rem;
+
+  &-switch {
+    color: $c-white;
+    text-decoration: none;
+    padding-left: 0.5rem;
+  }
+  // &-links {
+  //   display: flex;
+  //   flex-direction: row;
+  //   justify-content: flex-end;
+  // }
+
+  &-link {
+    color: $c-white;
+    text-decoration: none;
+    padding: 1rem 0.5rem;
+  }
+}

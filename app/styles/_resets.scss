@@ -1,7 +1,15 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-}
+  font-family: Khula;
+  // background: url("http://bizeventsasia.com/Content/images/backgrounds/mountians_sky_blue.jpg") $c-blueish no-repeat center fixed;
+  // background-size: cover;
+  // overflow: hidden;
+  // // position: relative;
+  // object-fit: contain;
+  // height: 100vh;
+  // width: 100%;
+  }
+
 
 ul {
   padding-left: 0;
@@ -13,4 +21,8 @@ img {
   max-width: 100%;
   height: auto;
   // border-radius: 5%;
+}
+
+li {
+  list-style: none;
 }

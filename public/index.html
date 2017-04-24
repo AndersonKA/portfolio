@@ -6,42 +6,78 @@
   <title>Kae's Portfolio</title>
   <link rel="stylesheet" href="/app.css">
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Amatic+SC" />
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Khula">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=PT+Sans+Narrow">
 </head>
 
 <body>
   <div class="header">
     <div class="header-links">
-      <a href="/about" class="header-link">About</a>
-      <a href="/skills" class="header-link">Skills</a>
-      <a href="/education" class="header-link">Education</a>
-      <a href="/contact" class="header-link">Contact</a>
+      <a href="#about" class="header-link">About</a>
+      <a href="#skills" class="header-link">Skills</a>
+      <a href="#examples" class="header-link">Examples</a>
+      <a href="#education" class="header-link">Education</a>
+      <a href="#contact" class="header-link">Contact</a>
     </div>
 
-  </div>
-  <!--header-->
+  </div><!--header-->
 
 
 
   <div class="section">
     <div class="container">
 
-      <div class="about">
+      <div class="top-words">
+        <div class="top-words-name">Kae Anderson</div>
+        <div class="top-words-thing">front-end web developer</div>
+      </div>
+
+      <div class="about area" id="about">
         <div class="heading">About</div>
         Hey, I'm Kae! My first introduction to coding was in 1998 when my best friend
-        and I made ( terrible) *N Sync fan websites on Angelfire. I loved making them,
-        but I got a degree in Anthropology (but I'm not Indiana Jones) and worked in
-        offices for ten years. When I was ready for a career change I started thinking
-        about how much I'd enjoyed coding, and I decided to enroll at The Iron Yard,
-        a 12-week immersive coding bootcamp, to learn how to make websites for real.
+        and I made (terrible) *N Sync fan websites on Angelfire. I loved making them,
+        but I got a degree in Anthropology because people are fascinating!
+        <p>I spent the next ten years working in offices after I figured out I wasn't going
+        to be the Indiana Jones. When I started looking for a career change I remembered
+        how much I'd enjoyed coding. I decided to enroll at The Iron Yard,
+        a 12-week immersive coding bootcamp, to learn how to make websites for real. </p>
+        <p>When I'm not coding I like reading (I own more than 500 books), watching lots of HGTV
+        (Fixer Upper is the best), <a href="http://www.instagram.com/thesilentstars" class="text-link">painting</a> and traveling (I've been to 16 countries!). </p>
+
+
       </div><!--about-->
 
-      <div class="skills">
+      <div class="skills area" id="skills">
         <div class="heading">Skills</div>
-        / HTML / CSS / SASS / JavaScript / vue.js / Ember / Photoshop / InDesign / Bulma / Bootstrap /
+        / HTML / CSS / SASS / Bulma / Bootstrap / JavaScript / vue.js / Ember / Photoshop / InDesign /
       </div>
       <!--skills-->
 
-      <div class="education">
+      <div class="examples area" id="examples">
+        <div class="heading">Examples</div>
+
+        <div class="grid">
+
+          <div class="grid-item">
+            <div class="grid-image">
+              <img src="/images/tshirts.png" class="pic-type">
+            </div>
+            <div class="grid-words">
+              <div class="grid-words-github"><a href="http://github.com/AndersonKA/07-tshirts">T-shirts on Github</a></div>
+              <div class="grid-words-desc">T-shirts</div>
+            </div>
+          </div>
+
+          <div class="grid-item">
+            <div class="grid-image">
+              <img src="/images/surfandpaddle.png" class="pic-type">
+            </div>
+          </div>
+
+        </div> <!--grid-->
+      </div> <!--examples-->
+
+      <div class="education area" id="education">
         <div class="heading">Education</div>
         <li class="education-item">The Iron Yard - JavaScript and MVC Frameworks
           </>
@@ -51,20 +87,42 @@
       </div>
       <!--education-->
 
-      <div class="contact">
+      <div class="contact area" id="contact">
         <div class="heading">Contact</div>
-        <ul>
-          <li>Kae Anderson</li>
-          <li>Nashville, TN</li>
-          <li>andersonkaem@gmail.com</li>
-          <li>615.626.6510</li>
-          <li>github.com/AndersonKA</li>
-          <li>linkedin.com/in/kaeanderson</li>
-        </ul>
+            <span class="fa fa-fw fa-user"></span><span class="info">Kae Anderson</span>
+          <div>
+            <span class="fa fa-fw fa-globe"></span><span class="info">Nashville, TN</span>
+          </div>
+          <div>
+            <span class="fa fa-fw fa-envelope-o"></span><span class="info">andersonkaem@gmail.com</span>
+          </div>
+          <div>
+            <span class="fa fa-fw fa-phone"></span><span class="info">615.626.6510</span>
+          </div>
+          <div>
+            <span class="fa fa-fw fa-github"></span><span class="info">github.com/AndersonKA</span>
+          </div>
+          <div>
+            <span class="fa fa-fw fa-linkedin"></span><span class="info">linkedin.com/in/kaeanderson</span>
+          </div>
+          <span class="fa fa-fw fa-instagram"></span><span class="info">instagram.com/okayheykae</span>
+
+
       </div><!--contact-->
 
     </div> <!--container-->
   </div> <!--section-->
+
+  <div class="footer">
+    <!-- <a href="/switch" class="footer-switch">Take a trip?</a> -->
+    <div class="footer-links">
+      <a href="#about" class="footer-link">About</a>
+      <a href="#skills" class="footer-link">Skills</a>
+      <a href="#examples" class="footer-link">Examples</a>
+      <a href="#education" class="footer-link">Education</a>
+      <a href="#contact" class="footer-link">Contact</a>
+    </div>
+  </div><!--footer-->
 
   <script src="/app.js" charset="utf-8"></script>
 </body>
