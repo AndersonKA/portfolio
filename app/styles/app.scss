@@ -74,6 +74,27 @@ body	{
   color: $c-white;
 }
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: -1rem;
+
+  &-item {
+  flex-basis: calc(100% / 2);
+  flex-grow: 1;
+  margin: 1rem;
+  display: flex;
+  }
+}
+
 .pic-type {
   max-width: 20rem;
+}
+
+.github-links {
+  color: $c-white;
+}
+
+.grid-words {
+  padding-left: 2rem;
 }
