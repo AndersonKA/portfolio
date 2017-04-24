@@ -1,6 +1,42 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
+
+$c-teal: #008080;
+$c-blueish: #56bfc9;
+$c-white: #fff;
 @import 'box-sizing';
+@import 'resets';
+
+body	{
+  background: url("http://bizeventsasia.com/Content/images/backgrounds/mountians_sky_blue.jpg") $c-blueish no-repeat center fixed;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  object-fit: contain;
+  height: 100vh;
+  width: 100%;
+}
+
+.header-link {
+  color: $c-white;
+  text-decoration: none;
+}
+
+.header-words {
+  color: $c-white;
+  font-size: 5rem;
+  font-family: Amatic SC;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.about {
+  background: $c-white;
+  padding: 3rem;
+}
