@@ -77,18 +77,18 @@ body	{
 .grid {
   display: flex;
   flex-wrap: wrap;
-  margin: -1rem;
+  margin: -1rem 0;
 
   &-item {
-  flex-basis: calc(100% / 2);
+  flex-basis: calc(100% / 3);
   flex-grow: 1;
-  margin: 1rem;
+  margin: 1rem 0;
   display: flex;
   }
 }
 
 .pic-type {
-  max-width: 20rem;
+  max-width: 15rem;
 }
 
 .github-links {
@@ -97,4 +97,9 @@ body	{
 
 .grid-words {
   padding-left: 2rem;
+}
+
+.links {
+  text-decoration: none;
+  color: white;
 }
