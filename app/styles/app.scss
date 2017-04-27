@@ -5,13 +5,13 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 
 $c-teal: #00A4B6;
+$c-darkteal: #1b7490;
 $c-blueish: #56bfc9;
 $c-bluish2: #77c7dd;
 $c-white: #fff;
 @import 'box-sizing';
 @import 'resets';
-@import 'top';
-@import 'footer';
+
 
 body	{
   // display: flex;
@@ -21,6 +21,55 @@ body	{
   padding-top: 3rem;
   min-height: 60vh;
   background-size: cover;
+  font-size: 1.1rem;
+  }
+
+  .header-links {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+
+  .header-link {
+    color: $c-white;
+    text-decoration: none;
+    padding: 1rem 0.5rem;
+
+  }
+
+  .header-words {
+    color: $c-white;
+    font-size: 5rem;
+    font-family: Amatic SC;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .heading {
+    font-family: Amatic SC;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .top-words {
+    padding: 8rem;
+    font-size: 5rem;
+    font-family: Amatic SC;
+    background: $c-teal;
+    color: $c-white;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+
+    &-thing {
+      font-size: 3rem;
+    }
   }
 
 .container {
@@ -33,32 +82,27 @@ body	{
 }
 
 .top-words {
-  background-color:rgba(0, 0, 0, 0.2);
-}
-
-.about {
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-.skills {
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color:rgba(0, 0, 0, 0.3);
 }
 
 .examples {
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0, 0.6);
+}
+
+.about {
+  background-color:rgba(0, 0, 0, 0.3);
+}
+
+.skills {
+  background-color:rgba(0, 0, 0, 0.6);
 }
 
 .education {
-  background-color:rgba(0, 0, 0, 0.2);
+  background-color:rgba(0, 0, 0, 0.3);
 }
 
 .contact {
-  background-color:rgba(0, 0, 0, 0.5);
-}
-
-.icons {
-  max-width: 3rem;
-  filter: invert(50%);
+  background-color:rgba(0, 0, 0, 0.6);
 }
 
 .info {
@@ -74,32 +118,95 @@ body	{
   color: $c-white;
 }
 
-.grid {
-  display: flex;
-  flex-wrap: wrap;
-  margin: -1rem 0;
-
-  &-item {
-  flex-basis: calc(100% / 3);
-  flex-grow: 1;
-  margin: 1rem 0;
-  display: flex;
-  }
-}
-
-.pic-type {
-  max-width: 15rem;
-}
-
-.github-links {
+.links {
+  text-decoration: none;
   color: $c-white;
 }
 
-.grid-words {
-  padding-left: 2rem;
+
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  background: $c-darkteal;
+  padding: 1rem;
+  min-width: 22rem;
+
+  // media query under 650?
+  // and remove padding on area
+
+
+  &-words_desc {
+    // visibility: hidden;
+    // padding: 1rem;
+    // top: 0;
+    // left: 0;
+    // position: absolute;
+    // background: $c-teal;
+
+    *:hover > & {
+      visibility: visible;
+    }
+  }
 }
 
-.links {
-  text-decoration: none;
-  color: white;
+.group {
+  display: flex;
+  flex-wrap: wrap;
+  // // justify-content: space-around;
+  // flex-basis: calc(100% / 3 - 2rem);
+  // flex-grow: 1;
+  // margin: 1rem;
 }
+
+.stuff {
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-around;
+  flex-basis: calc(100% / 3 - 2rem);
+  flex-grow: 1;
+  margin: 1rem;
+}
+
+.pic {
+  box-shadow: 0 0 0.5rem 0 rgba(#000, 0.6);
+  margin-bottom: 1rem;
+  filter: grayscale(1);
+  // filter: hue-rotate(30deg);
+
+  &:hover {
+    filter: grayscale(0);
+  }
+}
+
+.github-links {
+    color: $c-white;
+    text-decoration: none;
+  }
+
+
+  .footer {
+    display: flex;
+    flex-direction: row;
+    // justify-content: space-between;
+    justify-content: flex-end;
+    padding-top: 1rem;
+
+    &-switch {
+      color: $c-white;
+      text-decoration: none;
+      padding-left: 0.5rem;
+    }
+    // &-links {
+    //   display: flex;
+    //   flex-direction: row;
+    //   justify-content: flex-end;
+    // }
+
+    &-link {
+      color: $c-white;
+      text-decoration: none;
+      padding: 1rem 0.5rem;
+    }
+  }
