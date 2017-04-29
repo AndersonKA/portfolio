@@ -9,20 +9,55 @@ $c-darkteal: #1b7490;
 $c-blueish: #56bfc9;
 $c-bluish2: #77c7dd;
 $c-white: #fff;
+$c-green: #286c31;
+$c-forestlight: #d5f1d8;
+$c-orange: #945012;
+$c-blackish: #303439;
+$c-grayish: #5e5f67;
+$c-city: #f1ebad;
+$c-switchbg: #dee1e7;
+
+
 @import 'box-sizing';
 @import 'resets';
+@import 'switch';
+@import 'mountain';
 
 
-body	{
-  // display: flex;
-  align-items: center;
-  justify-content: center;
+
+.mountain-bg	{
   background: url('http://bizeventsasia.com/Content/images/backgrounds/mountians_sky_blue.jpg') $c-blueish center center fixed;
-  padding-top: 3rem;
-  min-height: 60vh;
-  background-size: cover;
-  font-size: 1.1rem;
   }
+
+  .header-link-mt {
+    color: $c-teal;
+  }
+
+.forest-bg {
+  background: url('https://static.pexels.com/photos/26559/pexels-photo-26559.jpg') $c-green center center fixed;
+}
+
+.header-link-forest {
+  color: $c-forestlight;
+}
+
+.beach-bg {
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/4c/be/e9/4cbee980d9d0cd4d5924005b1b0c715c.jpg') $c-orange center center fixed;
+}
+
+.header-link-beach {
+  color: $c-orange;
+}
+
+.space-bg {
+    background: url('http://thingstolookathigh.com/wp-content/uploads/2011/04/outer-space-stars.jpg') $c-blackish center center fixed;
+}
+
+.city-bg {
+  background: url('https://s-media-cache-ak0.pinimg.com/originals/92/25/ec/9225eca4852a685fb8a6fc54d2a26455.jpg') $c-city center center fixed;
+}
+
+
 
   .header-links {
     position: absolute;
@@ -34,10 +69,8 @@ body	{
   }
 
   .header-link {
-    color: $c-white;
     text-decoration: none;
     padding: 1rem 0.5rem;
-
   }
 
   .header-words {
@@ -74,6 +107,8 @@ body	{
 
 .container {
   width: 100%;
+max-width: 100%;
+margin: 0 auto;
 }
 
 .area {
@@ -81,8 +116,9 @@ body	{
   color: $c-white;
 }
 
+
 .top-words {
-  background-color:rgba(0, 0, 0, 0.3);
+  background-color:rgba(0, 0, 0, 0.2);
 }
 
 .examples {
@@ -144,10 +180,10 @@ body	{
     // left: 0;
     // position: absolute;
     // background: $c-teal;
-
-    *:hover > & {
-      visibility: visible;
-    }
+    //
+    // *:hover > & {
+    //   visibility: visible;
+    // }
   }
 }
 
@@ -189,8 +225,8 @@ body	{
   .footer {
     display: flex;
     flex-direction: row;
-    // justify-content: space-between;
-    justify-content: flex-end;
+    justify-content: space-between;
+    // justify-content: flex-end;
     padding-top: 1rem;
 
     &-switch {
@@ -209,4 +245,8 @@ body	{
       text-decoration: none;
       padding: 1rem 0.5rem;
     }
+  }
+
+  .fa {
+    color: $c-white;
   }
