@@ -22,41 +22,10 @@ $c-switchbg: #dee1e7;
 @import 'resets';
 @import 'switch';
 @import 'mountain';
-
-
-
-.mountain-bg	{
-  background: url('http://bizeventsasia.com/Content/images/backgrounds/mountians_sky_blue.jpg') $c-blueish center center fixed;
-  }
-
-  .header-link-mt {
-    color: $c-teal;
-  }
-
-.forest-bg {
-  background: url('https://static.pexels.com/photos/26559/pexels-photo-26559.jpg') $c-green center center fixed;
-}
-
-.header-link-forest {
-  color: $c-forestlight;
-}
-
-.beach-bg {
-  background: url('https://s-media-cache-ak0.pinimg.com/originals/4c/be/e9/4cbee980d9d0cd4d5924005b1b0c715c.jpg') $c-orange center center fixed;
-}
-
-.header-link-beach {
-  color: $c-orange;
-}
-
-.space-bg {
-    background: url('http://thingstolookathigh.com/wp-content/uploads/2011/04/outer-space-stars.jpg') $c-blackish center center fixed;
-}
-
-.city-bg {
-  background: url('https://s-media-cache-ak0.pinimg.com/originals/92/25/ec/9225eca4852a685fb8a6fc54d2a26455.jpg') $c-city center center fixed;
-}
-
+@import 'beach';
+@import 'city';
+@import 'forest';
+@import 'space';
 
 
   .header-links {
@@ -83,7 +52,6 @@ $c-switchbg: #dee1e7;
   }
 
   .heading {
-    font-family: Amatic SC;
     font-size: 2rem;
     padding-bottom: 0.5rem;
   }
@@ -91,7 +59,7 @@ $c-switchbg: #dee1e7;
   .top-words {
     padding: 8rem;
     font-size: 5rem;
-    font-family: Amatic SC;
+    // font-family: Amatic SC;
     background: $c-teal;
     color: $c-white;
     display: flex;
@@ -107,8 +75,8 @@ $c-switchbg: #dee1e7;
 
 .container {
   width: 100%;
-max-width: 100%;
-margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .area {
