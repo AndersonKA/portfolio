@@ -40,6 +40,7 @@ $c-switchbg: #dee1e7;
   .header-link {
     text-decoration: none;
     padding: 1rem 0.5rem;
+    color: $c-white;
   }
 
   .header-words {
@@ -132,7 +133,7 @@ $c-switchbg: #dee1e7;
 .grid {
   display: flex;
   flex-wrap: wrap;
-  background: $c-darkteal;
+  background: $c-teal;
   padding: 1rem;
   min-width: 22rem;
 
