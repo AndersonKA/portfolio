@@ -3,7 +3,7 @@
 }
 
 .header-link-city {
-  color: $c-city;
+  color: $c-white;
 }
 
 .top-words-city {
@@ -12,4 +12,12 @@
 
 .heading-city {
   font-family: Monoton;
+}
+
+.grid-city {
+  background: $c-cityish;
+}
+
+.explain-city {
+  background: $c-grayish;
 }
