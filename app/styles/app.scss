@@ -214,4 +214,9 @@ $c-switchbg: #dee1e7;
   }
 }
 
+.contact-grouping {
+  display: flex;
+  flex-direction: column;
+}
+
 @import 'media';
