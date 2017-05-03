@@ -61,7 +61,7 @@ $c-switchbg: #dee1e7;
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: flex-end;
 
   &-switch {
     color: $c-white;
@@ -121,7 +121,7 @@ $c-switchbg: #dee1e7;
 }
 
 .area {
-  padding: 8rem;
+  padding: 12rem 8rem;
   color: $c-white;
 }
 
