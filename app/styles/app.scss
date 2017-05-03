@@ -11,13 +11,17 @@ $c-bluish2: #77c7dd;
 $c-white: #fff;
 $c-green: #3d732f;
 $c-othergreen: #7c9d51;
+$c-otherothergreen: #507d4f;
 $c-forestlight: #d5f1d8;
 $c-orange: #945012;
 $c-otherorange: #CB8E40;
 $c-otherotherorange: #e4973b;
+$c-orangefour: #B33700;
+$c-orangefive: #b3614b;
 $c-blackish: #303439;
 $c-grayish: #5e5f67;
 $c-othergray: #526173;
+$c-purpleish: #6A5F76;
 $c-city: #f1ebad;
 $c-cityish: #deb967;
 $c-switchbg: #dee1e7;
@@ -31,6 +35,7 @@ $c-switchbg: #dee1e7;
 @import 'forest';
 @import 'space';
 @import 'shadow';
+@import 'desert';
 
 .header-links {
   position: absolute;
