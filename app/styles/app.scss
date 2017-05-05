@@ -219,4 +219,17 @@ $c-switchbg: #dee1e7;
   flex-direction: column;
 }
 
+.contact-item {
+  margin: 0.5rem 0;
+  max-width: 25rem;
+
+  &:hover {
+    font-size: 1.5rem;
+  }
+}
+
+.skill-set-heading {
+  padding-bottom: 0.5rem;
+}
+
 @import 'media';
