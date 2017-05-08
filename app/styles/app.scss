@@ -105,7 +105,7 @@ $c-switchbg: #dee1e7;
 }
 
 .top-words {
-  padding: 8rem;
+  padding: 15rem 8rem;
   font-size: 5rem;
   color: $c-white;
   display: flex;
@@ -163,6 +163,7 @@ $c-switchbg: #dee1e7;
   justify-content: center;
   align-items: center;
   text-align: center;
+  padding-top: 1.5rem;
 }
 
 .stuff {
@@ -212,6 +213,10 @@ $c-switchbg: #dee1e7;
   *:hover > & {
     visibility: visible;
   }
+}
+
+.education-item {
+  margin: 0.5rem 0;
 }
 
 .contact-grouping {
