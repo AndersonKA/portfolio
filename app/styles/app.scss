@@ -163,7 +163,7 @@ $c-switchbg: #dee1e7;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding-top: 1.5rem;
+  padding: 1.5rem 0;
 }
 
 .stuff {
@@ -176,7 +176,6 @@ $c-switchbg: #dee1e7;
   min-height: 20rem;
   max-height: 20rem;
   max-width: 20rem;
-
 }
 
 .pic {
