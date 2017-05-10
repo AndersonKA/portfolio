@@ -1,5 +1,6 @@
 .space-bg {
-  background: url('/images/spacepic.jpg') $c-blackish center center fixed;
+  background: url('/images/spacepic.jpg') $c-blackish no-repeat center center fixed;
+  background-size: cover;
   // http://picalls.com/wp-content/uploads/2015/07/Infinite-space.jpg
 }
 

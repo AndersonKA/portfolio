@@ -1,5 +1,6 @@
 .desert-bg {
-  background: url('/images/desert1.jpg') $c-orange center center fixed;
+  background: url('/images/desert4.jpg') $c-orange no-repeat center center fixed;
+  background-size: cover;
 }
 
 .top-words-desert {
@@ -11,9 +12,9 @@
 }
 
 .grid-desert {
-  background: $c-purpleish;
+  background: $c-greenish;
 }
 
 .explain-desert {
-  background: $c-orangefive;
+  background: $c-darkteal;
 }

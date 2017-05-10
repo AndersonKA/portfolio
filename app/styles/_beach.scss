@@ -1,5 +1,6 @@
 .beach-bg {
-  background: url('/images/oceanpic.jpg') $c-orange center center fixed;
+  background: url('/images/beach2.jpg') $c-darkblue no-repeat center center fixed;
+  background-size: cover;
 }
 
 .top-words-beach {
@@ -11,7 +12,7 @@
 }
 
 .grid-beach {
-  background: $c-otherotherorange;
+  background: $c-teal;
 }
 
 .explain-beach {

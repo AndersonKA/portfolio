@@ -22,7 +22,8 @@
 }
 
 .switch-bg {
-  background: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/03/00/web-road-lines-empty-istock.jpg') $c-switchbg center center fixed;
+  background: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/03/00/web-road-lines-empty-istock.jpg') $c-switchbg no-repeat center center fixed;
+  background-size: cover;
 }
 
 .switch-link {
