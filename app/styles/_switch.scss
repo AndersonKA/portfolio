@@ -1,0 +1,74 @@
+.header-links-switch {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.header-link-switch {
+  color: $c-teal;
+  text-decoration: none;
+  padding: 1rem 0.5rem;
+}
+
+.section-switch {
+  // position: fixed;
+  // top: 50%;
+  // left: 50%;
+  // transform: translate(-50%, -50%);
+  // padding: 0 5rem;
+}
+
+.switch-bg {
+  background: url('https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/02/03/00/web-road-lines-empty-istock.jpg') $c-switchbg no-repeat center center fixed;
+  background-size: cover;
+}
+
+.switch-link {
+  text-decoration: none;
+  color: $c-white;
+  font-size: 1.5rem;
+
+}
+
+.switch-words {
+  color: $c-white;
+  font-size: 2rem;
+}
+
+.container-switch {
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  // text-align: center;
+  // margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.4);
+  font-family: Permanent Marker;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0 5rem;
+}
+
+.grid-switch {
+  // display: flex;
+  // flex-wrap: wrap;
+  margin: -1rem;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+
+.grid-item-switch {
+  // flex-basis: calc(100% / 5 - 1rem);
+  // flex-grow: 1;
+  margin: 1rem;
+
+  &:hover {
+    font-size: 1.5rem;
+  }
+}
